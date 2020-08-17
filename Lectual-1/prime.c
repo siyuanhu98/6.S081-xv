@@ -67,7 +67,7 @@ int main(void)
 		dup(fd[1]);
 		close(fd[0]);
 		close(fd[1]);
-		for( i=2;i<=19;i++ )
+		for( i=2;i<=35;i++ )
 		{
 			write(1,&i,sizeof(int));
 		}
